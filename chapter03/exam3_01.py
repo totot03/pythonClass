@@ -13,7 +13,7 @@
 from random import *
 
 randDate = int(random()*(28 - 4 +1) + 4)
-randDate2 = randrange(4, 28+1)
-randDate3 = randint(1, 28)
-print("오프라인 스터디 모임 날짜는 매월 "+str(randDate3)+" 일로 선정되었습니다. ")
+randDate2 = randrange(4, 29)
+randDate3 = randint(4, 28)
+print("오프라인 스터디 모임 날짜는 매월 "+str(randDate2)+" 일로 선정되었습니다. ")
 
