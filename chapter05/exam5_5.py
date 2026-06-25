@@ -23,6 +23,22 @@
 #   data_list.append(i)
 # print(data_list)
 
-# data_list2 = range(1,21)
-data_list3 = list(range(1,21))
-# print(data_list3, type(data_list3))
+# 리스트 = [1, ....,20]
+# from random import *
+# data_list = list(range(1,21))
+# print(data_list)
+# shuffle(data_list)
+# print(data_list)
+
+# print("치킨 당첨자 : [{}]".format(data_list[0])) 
+# print("커피 당첨자 : {} 축하합니다".format(data_list[1:4])) 
+
+# sample 이용해서 프로그램 코딩
+from random import *
+data_list = list(range(1,21))
+shuffle(data_list)
+print(data_list)
+sample_list = sample(data_list, 4)
+print(sample_list)
+print("치킨 당첨자 : [{}]".format(sample_list[0])) 
+print("커피 당첨자 : {} 축하합니다".format(sample_list[1:]))
