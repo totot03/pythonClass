@@ -16,4 +16,5 @@
 def cal_average_gold(*no):
   avg = sum(no)/len(no)
   print(avg)
+  return 0
 cal_average_gold(12000,15000,18000)
